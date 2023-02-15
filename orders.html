@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Pizza shop</title>
+    <link rel="icon" href="img/liitle.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header class="header">
+     <h1 class="header_h1">🍕🍕Little pizza shop🍕🍕</h1>
+     <nav class="header_nav">
+        <ul class="header_ul">
+        <li>
+            <a href="index.html">HOME</a>
+        </li>
+        
+        <li>
+            <a href="hours.html">HOURS</a>
+        </li>
+        <li>
+            <a href="about.html">about</a>
+        </li>
+        <li>
+            <a href="contact.html">contact</a>
+        </li>
+    </ul>
+     </nav>
+    </header>
+    <section class="hero">
+        <figure>
+            <img src="img/1200.png" alt="pizza" title="pizza chessey" width="1200" height="675">
+            <figcaption class="offscreen">
+                Try These Delicious pizza
+            </figcaption>
+         </figure>
+          <form action="https://httpbin.org/get" method="get" >
+              <center><h2>ENTER THE PIZZA DETAILS AND FLAVOURS <h2></center><br>
+              <hr>
+     
+             <center><h3 class="order__h3"><label class="order__label"> EXTRA TOPPING FOR VEGGIE PIZZA </label></h3></center>
+             <center><select class="order__size">
+             <option>panner</option>
+              <option>tomato</option>
+               <option>olive</option>
+               </select></center>
+               <br><br>
+                <center><label class="order__label" ><h3>select your size </label></h3>
+             <select class="order__size">
+             <option>small</option>
+              <option>medium</option>
+               <option>large</option>
+               </select></center>
+               <br><br>
+              <center><label class="order__label">choose the quatity</label>
+             <input class="order__input" type="number" number="" min="0" max="10"><br>
+                <label class="order__label"> number of sauce packets </label>
+             <input class="order__input" type="number" number=""  min="0" max="10"></center>
+                <hr>
+             <center><h3 class="order__h3"><label class="order__label"> EXTRA TOPPING FOR cheese PIZZA </label></h3></center>
+             <center><select class="order__size">
+             <option> panner</option>
+              <option>Extra cheese</option>
+               <option>Extra crust</option>
+               </select></center>
+               <br><br>
+                <center><label class="order__label"><h3>select your size </label></h3>
+             <select class="order__size">
+             <option>  small</option>
+              <option> medium</option>
+               <option> large</option>
+               </select></center>
+               <br><br>
+              <center><label class="order__label">choose the quatity</label>
+             <input class="order__input" type="number" number=""  min="0" max="10"><br>
+                <label class="order__label"> number of sauce packets </label>
+             <input class="order__input" type="number" number=""  min="0" max="10"></center>
+             <hr>
+                
+             <center><h3 class="order__h3"><label class="order__label"> EXTRA TOPPING NON-VEG CHESSE PIZZA </label></h3></center>
+             <center><select class="order__size">
+             <option> Extra chicken</option>
+              <option> BBQ chicken</option>
+               <option> Extra chessey</option>
+               </select></center>
+               <br><br>
+                <center><label class="order__label"><h3>select your size </label></h3>
+             <select class="order__size">
+             <option> small</option>
+              <option> medium</option>
+               <option> large</option>
+               </select></center>
+               <br><br>
+              <center><label class="order__label">choose the quatity</label>
+             <input class="order__input" type="number" number=""  min="0" max="10"><br>
+                <label class="order__label"> number of sauce packets </label>
+             <input class="order__input" type="number" number=""  min="0" max="10"></center>
+             <hr>
+             
+            
+             <hr>
+            
+            
+            
+             <center><form>
+             <h1 class="order__h1">Address :</h1><br>
+             <label   class="order__color"for="message">Home address:</label>
+              <br>
+                 <textarea class="order__textarea" name="message" id="message"
+                cols="30" rows="10" placeholder="  HOME ADDRESS" required></textarea>
+             <br>
+                  <label  class="order__color"
+                  for="message">OFFICE address:</label>
+               <br>
+                  <textarea class="order__textarea" name="message" id="message"
+                  cols="30" rows="10" placeholder="  OFFICE ADDRESS" required></textarea>
+             <br><br>
+             <hr>
+             <br>
+              
+             <h2 class="order__h2">Extras </h2>
+             <label class="order__label"> OFFERS </label>
+             <select>
+              <option>10%</option>
+             <option>5%</option> 
+             </select>
+             <br><br>
+             <hr>
+             <h3  class="order__h3">Details</h3>	 
+             <label class="order__label">Name</label>
+             <input class="order__input" type="name" placeholder="  Name " required >
+             <br>
+             <label class="order__label">moblie number</label>
+             <input class="order__input" type="moblie number" placeholder="  Moblie number"  required >
+             <br>
+             <label class="order__label"> Enter your city</label>
+              <input class="order__input" type="Enter your city" placeholder="  Enter your city"  required >
+              <br>
+             <label class="order__label">pincode</label>
+            
+             <input class="order__input" type="text" placeholder="  pincode "  required >
+             <br><br>
+             <h1><button class="order__button">SUBMIT </button><h1>
+               <br>
+             </center>
+             <center>
+             <label class="order__label"> Select The address</label>
+             <select class="order__input">
+             <option>HOME ADDRESS</option>
+             <option>OFFICE ADRESS</option>
+             </select>
+             </center><br>
+             <center> <label class="order__label"> Select The Payment</label>
+             <select class="order__input">
+             <option>Offline payment</option>
+             <option>Online payment </option>
+             </select></center>
+             </center><br>
+             <center><button class="order__button" > Place your order </button>
+             </center>
+           </form>
+         </section>
+         <br>
+            <footer class="footer">
+            <p>
+            <span class="nowrap">copyright &copy;<time id="year"></time></span>
+            <span class="nowrap">Little pizza shop</span>
+        </p>
+        </footer>
+    </body>
+    </body>
+</html>
