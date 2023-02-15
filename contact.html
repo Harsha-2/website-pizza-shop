@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Pizza shop</title>
+    <link rel="icon" href="img/liitle.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+   
+</head>
+<body>
+    <header class="header">
+     <h1 class="header_h1">🍕🍕Little pizza shop🍕🍕</h1>
+     <nav class="header_nav">
+        <ul class="header_ul">
+
+       
+        <li>
+            <a href="index.html">HOME</a>
+        </li>
+      
+        <li>
+            <a href="hours.html">HOURS</a>
+        </li>
+        <li>
+            <a href="about.html">about</a>
+        </li>
+        <li>
+            <a href="orders.html">orders</a>
+        </li>
+        </ul>
+     </nav>
+    </header>
+    <section class="hero">
+        <figure>
+            <img src="img/piza3.png" alt="pizza" title="pizza chessey" width="360" height="360">
+            <figcaption class="offscreen">
+                Try These Delicious pizza
+            </figcaption>
+        </figure>
+        <main class="main">
+            <article class="main_article">
+                <h2>our address</h2>
+                <address>
+                    RAMMURTHY NAGR MINI BY-PASS ,NELLORE , ANDHRA PRADESH 
+                    <br><br>
+                    phone:<a href="tel:+55565858">555-555-999</a>
+                </address>
+            </article>
+            <hr>
+            <article class="main_article contact">
+                <h2 class="contact_h2"> contact Here</h2>
+                <form action="https://httpbin.org/get" method="get" class="contact_form">
+                    <fieldset class="conatct_fieldset">
+                        <legend class="offscreen">send us a feedback</legend>
+                        <p class="contact_p">
+                            <label class="contact_label" for="email">EMAIL:</label>
+                            <input class="contact_input" type="text" name="name" id="EMAIL" placeholder="ENTER YOUR EMAIL" required>
+                        </p>
+                        <p class="contact_p">
+                            <label class="contact_label" for="NAME">NAME:</label>
+                            <input class="contact_input" type="text" name="name" id="NAME" placeholder="ENTER YOUR NAME" required> 
+                    
+                       </p>
+                       <p class="contact_p">
+                        <label class="contact_label" for="message">YOUR FEEDBACK :</label>
+                        <br>
+                        <textarea class="contact_textarea" id="message" 
+                         cols="30" rows="10" name="message" placeholder="GIVE YOUR FEEDBACK HERE" required></textarea>
+                    
+                       </p>
+                    </fieldset>
+                    <button class="contact_button" type="submit">send</button>
+                    <button class="contact_button" type="reset">Reset</button>
+                </form>
+
+            </article>
+        </main>
+        <footer class="footer">
+            <p>
+            <span class="nowrap">copyright &copy;<time id="year"></time></span>
+            <span class="nowrap">Little pizza shop</span>
+        </p>
+        </footer>
+    </body>
+    </html>
